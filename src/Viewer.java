@@ -160,6 +160,8 @@ public class Viewer {
         x = x + width + offset;
         y = startY;
 
+        System.out.println();
+
         JButton buttonPercent = new JButton("%");
         buttonPercent.setBounds(x,y,width,height);
         buttonPercent.addActionListener(controller);
